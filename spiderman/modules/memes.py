@@ -386,7 +386,7 @@ All regex filters can be disabled incase u don't want... like: `/disable metoo`.
 
 """
 
-__mod_name__ = "Memes"
+__mod_name__ = "Fun"
 
 SHRUG_HANDLER = DisableAbleCommandHandler("shrug", shrug)
 DECIDE_HANDLER = DisableAbleMessageHandler(Filters.regex(r"(?i)^spiderman\?"), decide, friendly="decide")
